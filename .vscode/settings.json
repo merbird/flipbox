@@ -1,0 +1,17 @@
+{
+	"liveServer.settings.donotShowInfoMsg": true,
+	"liveServer.settings.useWebExt": false,
+	"liveServer.settings.proxy": {
+			"enable": true,
+			"baseUri": "/",
+			"proxyUri": "http://localhost:80/flipbox"
+		},
+   "liveSassCompile.settings.formats": [
+      {
+          "format": "compressed",
+          "extensionName": ".min.css",
+          "savePath": "/dist"
+      }
+  ],
+  "liveSassCompile.settings.generateMap": true,
+}
