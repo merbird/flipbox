@@ -133,6 +133,26 @@ $bod-flip-back-bgcolor: rgb(202, 32, 32);
          }
       }
    }
+   &.diag-flip {
+      .flip-inner {
+         &.hover {
+            transform: rotate3d(1, 1, 0, -180deg);
+         }
+         .flip-back {
+            transform: rotate3d(1, 1, 0, -180deg);
+         }
+      }
+   }
+   &.diag-inv-flip {
+      .flip-inner {
+         &.hover {
+            transform: rotate3d(-1, 1, 0, 180deg);
+         }
+         .flip-back {
+            transform: rotate3d(-1, 1, 0, 180deg);
+         }
+      }
+   }
 }
 
 @keyframes liftNflip {

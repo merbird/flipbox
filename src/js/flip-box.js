@@ -2,6 +2,7 @@
 // libs that use $
 
 (function($) {
+   "use strict";
 
    class BodFlipBox {
 

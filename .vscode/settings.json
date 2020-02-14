@@ -1,8 +1,8 @@
 {
 	"liveServer.settings.donotShowInfoMsg": true,
-	"liveServer.settings.useWebExt": false,
+	"liveServer.settings.useWebExt": true,
 	"liveServer.settings.proxy": {
-			"enable": true,
+			"enable": false,
 			"baseUri": "/",
 			"proxyUri": "http://localhost:80/flipbox"
 		},

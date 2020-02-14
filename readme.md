@@ -1,6 +1,8 @@
 # Flip Box
 ## Version History
 1.0 - 2/5/2020 - Initial release
+
+1.1 - 2/14/2020 - Add diagonal flip
 ## Introduction
 This is a flip box widget written in jQuery, CSS and HTML. Key features include:
 1. Regular image used for flip box front instead of a background image. This is better for SEO.
@@ -97,6 +99,14 @@ Instead of flipping left or right it flips up.
 <div class="bod-flip-box down-flip">
 ```
 Just like up but down :)
+```
+<div class="bod-flip-box diag-flip">
+```
+Flips diagonally from top right down to bottom left.
+```
+<div class="bod-flip-box diag-inv-flip">
+```
+Flips diagonally from top left down to bottom right.
 ```
 <div class="bod-flip-box lift-flip">
 ```
