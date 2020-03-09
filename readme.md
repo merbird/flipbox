@@ -1,8 +1,8 @@
 # Flip Box
 ## Version History
 1.0 - 2/5/2020 - Initial release
-
 1.1 - 2/14/2020 - Add diagonal flip
+1.1.1 - 3/9/2020 - Typos in readme.md
 ## Introduction
 This is a flip box widget written in jQuery, CSS and HTML. Key features include:
 1. Regular image used for flip box front instead of a background image. This is better for SEO.
@@ -14,9 +14,9 @@ This is a flip box widget written in jQuery, CSS and HTML. Key features include:
 ## Prerequisites
 This widget requires jQuery.
 ## Setup
-Downdown widget from GitHub ...
+Download from GitHub ...
 
-There are two files in the src directory that need to be included in your html code. These files are flip-box.js and flip-box.min.css. The css file should be included in the HEAD section of the webpage on which you want to display the flip box.
+There are two files in the dist directory that need to be included in your html code. These files are flip-box.js and flip-box.min.css. The css file should be included in the HEAD section of the webpage on which you want to display the flip box.
 ```
 <link rel="stylesheet" href="flip-box.min.css">
 ```
